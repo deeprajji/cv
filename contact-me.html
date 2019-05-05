@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="/Users/xbbl4xf/Documents/css/styles.css">
+    
 </head>
 <body>
 <table>
@@ -12,9 +14,13 @@
     <td><p><strong><a href= "mailto:deepraj@verizon.net">Mail to</a></strong></p></td>
     </tr>
 </table>
-<form>
+<form action="mailto:deepraj@verizon.net" method="post" enctype="text/plain">
     <label> Your Name:</label>
-    <input type="text" value="">
+    <input type="text" name = "Yourname:" value=""><br>
+    <label> Your Email:</label>
+    <input type = "email" name="email" value = ""><br>
+    <label>Your Message</label><br>
+    <textarea name= " Your Message" rows="10" cols = "30" name = "Message" value = "Your Message"></textarea><br>
     <input type = "submit" value = "Submit">
 </form>
 </body>

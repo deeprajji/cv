@@ -1,0 +1,10 @@
+    body {
+           background-color: mintcream; 
+        }
+    hr
+        {
+            border-color: brown;
+            border-style: dotted none none none;
+            border-width: 1px;
+            width: 5%;
+        }
